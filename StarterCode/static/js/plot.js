@@ -15,9 +15,6 @@ function buildMetadata(sample) {
         PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
       });
 
-// BONUS: Gauge Chart
-      buildGauge(result.wfreq);
-    });
 }
 
 function buildCharts(sample) {
